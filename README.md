@@ -1,71 +1,75 @@
-# Getting Started with Create React App
+# habitat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Your home for growing better habits, not just tracking them.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+**habitat** is a personal habit tracker and digital garden that helps you build and maintain healthy routines, guilt-free.  
+You can add, edit, and delete habits, track your progress, and watch your “garden” grow over time—without streak pressure or intrusive notifications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Add, edit, and delete habits
+- Simple, cozy UI with an optional garden visualization
+- Data is stored securely in the cloud using Supabase (Postgres)
+- No ads, no data selling, no dark patterns—privacy first
+- [Future] Visual habit garden, social encouragement, and more!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** (frontend UI)
+- **Supabase** (PostgreSQL backend, authentication, API)
+- **Deployed on:** [TBD]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/) and npm installed
+- [Supabase](https://supabase.com/) account and project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Setup
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/habitat.git
+   cd habitat
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2.	**Install dependencies:**
+    npm install
 
-## Learn More
+3.	**Set up environment variables:**
+	•	Create a .env file in the project root:
+    REACT_APP_SUPABASE_URL=your_supabase_project_url
+    REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.	**Start the app:**
+    npm start
+    The app should now run at http://localhost:3000.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Project Vision
 
-### Code Splitting
+	•	Designed to be user-first and mentally healthy:
+        •   No shaming, no guilt, no streak anxiety
+	    •	Growth happens at your own pace
+	•	Privacy is never an afterthought—your data is yours
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributing
 
-### Analyzing the Bundle Size
+Pull requests are welcome! For suggestions or ideas, please open an issue or contact the maintainer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## License
 
-### Making a Progressive Web App
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Habitat
+Inspired by habit trackers, cozy games, and digital gardens everywhere.
